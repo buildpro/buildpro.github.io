@@ -207,6 +207,7 @@
     .main-slider .slider-btn{
         font-size: 12px;
         padding: 15px 20px;
+        margin: 5px 0;
     }
 }
 
@@ -488,8 +489,8 @@
 
 /*contact page */
 @media screen and (max-width: 1184px){
-    .contact-us #half{
-    width: 100%;
+    .contact-us .half{
+    width: 100% !important;
     }
 }
 
