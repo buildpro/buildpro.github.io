@@ -399,12 +399,12 @@ button:hover{
     -moz-animation-delay: 1s;
     -webkit-animation-delay: 1s;
 }
-.main-slider #donate{
+.main-slider .donate{
     background: #f59000;
     border: 1px solid #f59000;
 }
 .main-slider .slider-btn:hover,
-.main-slider #donate:hover
+.main-slider .donate:hover
 {
     background: #000 !important;
     border: 1px solid #000;
@@ -1363,8 +1363,10 @@ button:hover{
     text-align: center;
     padding: 35px;
 }
-.copyright p{
-    margin: 0;
+.copyright h5{
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 
@@ -1836,10 +1838,10 @@ button:hover{
 .contact-us form{
     margin-top: 40px;
 }
-.contact-us #half{
-    width: 48.7%;
+.contact-us .half{
+    width: 48.7% !important;
     float: left;
-    margin-right: 8px;
+    margin-right: 8px !important;
 }
 .contact-us .contact-src{
     width: 99%;
